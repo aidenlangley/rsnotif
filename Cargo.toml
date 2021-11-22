@@ -1,0 +1,21 @@
+[package]
+authors = [ "Aiden Langley <aiden@nedia.dev" ]
+name = "rsnotif"
+description = "A functional notification daemon, written in Rust, featuring history & fine grained control"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+documentation = "https://docs.rs/rsnotif/"
+license = "MIT"
+keywords = [ "" ]
+categories = [ "" ]
+
+[[bin]]
+name = "rsnotif"
+path = "src/main.rs"
+
+[[bin]]
+name = "rsnotifctl"
+path = "src/controller/main.rs"
+
+[dependencies]
